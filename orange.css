@@ -1,0 +1,71 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+    h1,h2,h3,h4,h5,h6{
+      position: relative;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    p{
+      position: relative;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    div{
+      position: relative;
+    }
+    
+    a{
+      text-decoration: none;
+      position: relative;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    body{
+      background: white;
+      overflow: hidden;
+    }
+    
+    #o{
+      top: 200px;
+      left: 39%;
+      width: 30px;
+      animation-name: o;
+      animation-duration: 3s;
+      animation-timing-function: ease;
+      color: red;
+  
+    }
+    
+    @keyframes o{
+      from{
+        opacity: 0;
+      }to{
+        opacity: 1;
+      }
+    }
+    
+    #caixa{
+      border: none;
+      width: 150px;
+      left: 45%;
+      top: 127px;
+      overflow: hidden;
+    }
+    
+    #ran{
+      animation-name: ran;
+      animation-duration: 3s;
+      animation-timing-function: ease;
+      color: red;
+    
+    }
+    
+    @keyframes ran{
+      from{
+        opacity: 0px;
+        left: -100px;
+      }to{
+        opacity: 1;
+        left: 0px;
+      }
+    }
+}
